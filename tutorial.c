@@ -73,15 +73,94 @@
 
 // }
 
+// HOME WORK : q pritn the smallets number
+
+// int main() {
+//     int a , b;
+//     printf("enter numbers : ");
+//     scanf("%d %d " ,&a ,b);
+
+//     printf(" %d  " , a<b);
+//     return 0;
 
 
-int main() {
-    int a , b;
-    printf("enter numbers : ");
-    scanf("%d %d " ,&a ,b);
-
-    printf(" %d  " , a<b);
-    return 0;
+// }
 
 
+// LECTURE 3 : CONDITIONAL STATEMENTS 
+
+
+
+// int main(){
+//     int age ;
+//     printf(" enter age :\n");
+//     scanf("%d", &age);
+
+//     if( age >= 18){
+//         printf("adult\n");
+//         printf("they can vote \n");
+//         printf("they can drive\n");
+
+//     }
+//     else {
+//         printf("not adult \n");
+//         printf("cant vote\n");
+
+//     }
+
+//     return 0;
+// }
+
+
+// CONDITIONAL OPETRATOR -------TERNARY AND SWITCH 
+
+//TERNARY 
+
+// int main (){
+//     int age ;
+//     printf("enter age :\n");
+//     scanf("%d", &age);
+
+//     age >= 18 ? printf("person can vote\n") : printf("person cant vote\n");
+
+//     }
+
+
+// SWITCH 
+
+int main () {
+    int day;
+    printf("enter day (1-7) : \n");
+    scanf("%d", &day);
+
+    switch (day){
+        case 1: printf("today is monday \n");
+        break;
+
+        case 2 : printf("today is tuesday\n");
+        break;
+
+        case 3 : printf("today is wednesday \n");
+        break;
+
+        case 4 : printf("today is thursday \n");
+        break;
+
+        case 5 : printf(" today is friday \n");
+        break;
+
+        case 6 : printf(" today is saturday \n ");
+        break;
+
+        case 7 : printf(" today is sunday \n");
+        break;
+
+        default : printf("invalid day\n");
+
+
+
+    }
+
+    return 0 ;
+  
 }
