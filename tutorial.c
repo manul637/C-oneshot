@@ -128,39 +128,86 @@
 
 // SWITCH 
 
-int main () {
-    int day;
-    printf("enter day (1-7) : \n");
-    scanf("%d", &day);
+// int main () {
+//     int day;
+//     printf("enter day (1-7) : \n");
+//     scanf("%d", &day);
 
-    switch (day){
-        case 1: printf("today is monday \n");
-        break;
+//     switch (day){
+//         case 1: printf("today is monday \n");
+//         break;
 
-        case 2 : printf("today is tuesday\n");
-        break;
+//         case 2 : printf("today is tuesday\n");
+//         break;
 
-        case 3 : printf("today is wednesday \n");
-        break;
+//         case 3 : printf("today is wednesday \n");
+//         break;
 
-        case 4 : printf("today is thursday \n");
-        break;
+//         case 4 : printf("today is thursday \n");
+//         break;
 
-        case 5 : printf(" today is friday \n");
-        break;
+//         case 5 : printf(" today is friday \n");
+//         break;
 
-        case 6 : printf(" today is saturday \n ");
-        break;
+//         case 6 : printf(" today is saturday \n ");
+//         break;
 
-        case 7 : printf(" today is sunday \n");
-        break;
+//         case 7 : printf(" today is sunday \n");
+//         break;
 
-        default : printf("invalid day\n");
+//         default : printf("invalid day\n");
 
 
 
-    }
+//     }
 
-    return 0 ;
+//     return 0 ;
   
-}
+// }
+
+
+
+// pass or faill
+
+// int main () {
+
+//     int marks;
+//     printf("enter marks(1-100) :");
+//     scanf("%d" , &marks);
+
+//     if(marks <=30){
+//         printf("fail \n");
+//     }
+//      else if ( marks > 30 && marks <= 100){
+//         printf("pass \n");
+//     } else {
+// printf("wrong marks ");}
+//     return 0;
+
+
+// }
+
+
+
+// int main () {
+//     char ch;
+//     printf("enter character :");
+//     scanf("%c" , &ch);
+
+
+//     if (ch >= 'A' && ch <='Z') {
+//         printf("upper case");
+
+//     } else if (ch >= 'a' && ch <= 'z'){
+//         printf("lower case");
+//     } else {
+//         printf(" not english");
+//     }
+//     return 0;
+
+//     }
+
+
+
+
+
