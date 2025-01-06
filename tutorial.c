@@ -207,7 +207,25 @@
 
 //     }
 
+// HOMEWORK 
 
+// if no is amstrong number or not 
+
+
+// if no is natural or not
+
+// int main () {
+//     int n;
+//     printf("enter number : \n");
+//     scanf("%d", &n);
+
+//     if( n >= 1 && n % 1 == 0){
+//         printf("the number is natural");
+//     } else {
+//         printf("not natural");
+//     }
+//     return 0;
+// }
 
 
 
