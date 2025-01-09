@@ -170,14 +170,13 @@
 // CALCULATE THE SUM BETWEEN 5 AND 50 INCLUDING 
 
 
-int main (){
+// int main (){
 
-    int sum = 0;
-    for(int i =5 ; i<=50 ; i++){
-        sum = sum +i;                                   //sum =+ i
-    }
-    printf(" sum is : %d \n" , sum);
+//     int sum = 0;
+//     for(int i =5 ; i<=50 ; i++){
+//         sum = sum +i;                                   //sum =+ i
+//     }
+//     printf(" sum is : %d \n" , sum);
 
-    return 0;
+//     return 0;
 
-}
