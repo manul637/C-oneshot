@@ -6,3 +6,4 @@ lecture4.c
 lecture5.c
 lecture6.c
 lecture7.c
+lecture8.C
