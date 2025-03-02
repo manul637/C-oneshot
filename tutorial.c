@@ -1,9 +1,9 @@
  # include<stdio.h>
 
-//  int main() {
-//     printf("hello world !");
-//     return 0;
-//  }
+ int main() {
+    printf("hello world !");
+    return 0;
+ }
 
 // area of square 
 
@@ -114,7 +114,7 @@
 
 // CONDITIONAL OPETRATOR -------TERNARY AND SWITCH 
 
-//TERNARY 
+// TERNARY 
 
 // int main (){
 //     int age ;
